@@ -20,6 +20,7 @@ h1 {
 
 .nav {
     list-style: none;
+    background-color: red;
     margin: 0;
     padding: 0;
     display: flex;
@@ -29,7 +30,7 @@ h1 {
 }
 
 .nav li {
-    background: #ccc;
+    background: #eee;
     padding: 10px 15px;
     margin-left: 6px;
     cursor: pointer;
