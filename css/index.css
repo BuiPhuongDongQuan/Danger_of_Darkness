@@ -1,0 +1,256 @@
+/*------------------------------------------------------------------------------------------*/
+/* 1. Defaults & Reset of specific styles across browsers */
+/*------------------------------------------------------------------------------------------*/
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.main-container h3 {
+    text-shadow: 11.15px 10px 6px #8f3333;
+}
+
+.idea-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.idea-container h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.information {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    flex: 1;
+    padding: .5em;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+} 
+
+.download {
+    font-size: 16px;
+    margin: 35px 0;
+    padding: 11px 16px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+    display: inline-block;
+    border-width: 3px;
+    border-style: solid;
+    border-color: gray;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-heading h3:after {
+    background:#de1919;
+    content:"";
+    display:block;
+    width:30px;
+    height:5px;
+    margin-top:30px;
+}
+
+.text-center .section-heading h3:after {
+    margin:30px auto 25px auto;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/* 2. Layout Elements */
+/*------------------------------------------------------------------------------------------*/
+
+section {
+    clear: both;
+    overflow: hidden;
+}
+
+/* Rows and Columns */
+
+.row {
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 75px 0;
+    position: relative;
+}
+
+.no-padding-bottom .row, .no-padding-bottom div, .no-padding-bottom.row {
+    padding-bottom: 0;
+}
+
+.no-padding-top.row, .no-padding-top div {
+    padding-top: 0;
+}
+
+.big-padding-top {
+    padding-top: 75px !important;
+}
+
+.big-padding-bottom {
+    padding-bottom: 85px !important;
+}
+
+/* Targets all elements */
+
+[class*='col-'] {
+    float: left;
+    padding: 20px;
+}
+
+#clients .col-2-3 [class*='col-'] {
+    padding: 0;
+}
+
+/* Clearfix */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Main Widths */
+
+.col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33%;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.col-5 {
+    width: 20%;
+}
+
+.col-6 {
+    width: 16.6666666667%;
+}
+
+.col-7 {
+    width: 14.2857142857%;
+}
+
+.col-8 {
+    width: 12.5%;
+}
+
+.col-9 {
+    width: 11.1111111111%;
+}
+
+.col-10 {
+    width: 10%;
+}
+
+.col-11 {
+    width: 9.09090909091%;
+}
+
+.col-12 {
+    width: 8.33%;
+}
+
+.col-2-3 {
+    width: 66.66%;
+}
+
+.col-3-4 {
+    width: 75%;
+}
+
+.col-9-10 {
+    width: 90%;
+}
+
+/* Golden Ratio */
+.col-61 {
+    width: 61.8%;
+}
+
+.col-38 {
+    width: 38.2%;
+}
+
+
+.caption {
+    flex: 1;
+    padding: .5em;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+#team-member h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.member-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inline-block img {
+    max-width: 100%;
+    max-height: 100%;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.inline-block p {
+    text-align: center;
+}
+
+#tools h1 {
+    margin-bottom: 30px;
+}
+
+
+.tools-column {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tools-column img {
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+    gap: 5px;
+    margin: 0px 130px 50px 130px;
+}
+
+.tools-column h3 {
+    padding: 5px 0px 50px;
+    text-align: center;
+}
+
+.icon {
+    color: #de1919;
+}
+

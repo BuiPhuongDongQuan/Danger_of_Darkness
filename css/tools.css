@@ -1,0 +1,8 @@
+.container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container h1, p {
+    margin-bottom: 20px;;
+}

@@ -1,0 +1,235 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    background-image: url("../image/horror_scene.png");
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header input[type=checkbox] {
+    display: none;
+}
+
+footer {
+    background-color: #EEEDED;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer>p {
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+.navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #D21312;
+    color: black;
+}
+
+.navbar h1 {
+    text-shadow: 11.15px 10px 6px ;
+    color: black;
+}
+
+.nav-links a {
+    color: black;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #F15A59;
+    border-radius: 0px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.menu .active {
+    background-color: #F15A59;
+    border-radius: 5px;
+    padding: 5px 14px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-top: -1%;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.footer-logo {
+    justify-content: center;
+    max-width: 100%;
+    width: 200px;
+    height: 50px;
+}
+
+
+.footer-nav .nav-bar .menu {
+    justify-content: center;
+}
+
+.download, input[type="submit"]  {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:14px;
+    font-weight:bold;
+    color:#111;
+}
+
+
+/* Button Color */
+
+.download, input[type="submit"] {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+.download:hover,  input[type="submit"]:hover {
+    border-color:red;
+    color:red;
+}
+
+/*Font Icon sizes*/
+
+.fa-1x {
+    font-size: 15px !important;
+}
+
+/*Icon Block*/
+
+.icon-block {
+    position: relative;
+}
+
+.icon-block h4 {
+    font-weight: bold;
+    padding-top: 0;
+}
+
+.icon-block .icon {
+    position: absolute;
+}
+
+.icon-block p {
+    margin-top: 0;
+}
+
+/* Icon Left*/
+
+.icon-left .icon {
+    left: 15;
+}
+
+.icon-left .icon-block-description {
+    padding-left: 53px;
+}
+
+/* Icon Right */
+
+.icon-right .icon {
+    right: 15;
+}
+
+.icon-right .icon-block-description {
+    padding-right: 53px;
+}
+
+/* Icon Above */
+
+.icon-top {
+    display: block;
+}
+
+.icon-top .icon {
+    position: relative;
+    display: block;
+}
+
+.icon-top .icon-block-description {
+    padding-top: 25px;
+}
+
+/* --------- 5.2 Parallax Elements ---------- */
+
+.banner-parallax-1, .banner-parallax-2, .banner-parallax-3 {
+    min-height: 350px;
+}
+

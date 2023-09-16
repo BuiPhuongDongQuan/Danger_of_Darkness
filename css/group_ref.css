@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Gliker-SemiBoldSemiCondensed';
+    src: url('https://aurabora.com/cdn/shop/t/189/assets/font-Gliker-SemiBoldSemiCondensed.woff2') format('woff2');
+}
+
+body {
+/* background-image: linear-gradient( 115deg, rgba(50, 58, 44, 0.6), rgba(2, 2, 7, 0.9) ),url(https://assets.raribleuserdata.com/prod/v1/image/t_gif_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1ha3JzVHN3aEtQZFB4UXFzcFlycms1VndHNGZUZ0RCUWp2WUVyeWZuQlVaQy9pbWFnZS5naWY=); 
+background-size: cover;
+background-repeat: no-repeat; */
+background-color: #FFF8F0;
+}
+
+
+.title-name h1 {
+font-family: 'Gliker-SemiBoldSemiCondensed', Arial, sans-serif;
+font-size: 80px;
+text-align: center;
+color: rgb(88, 31, 10);
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.content {
+justify-content: center;
+padding: 24px;
+border-radius: 3px;
+position: relative;
+display: grid;
+flex-direction: column;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 45px;
+background-color: rgb(247, 225, 166);
+}
+
+.btn-content {
+display: none;
+}
+
+.container h2 {
+font-family: 'Gliker-SemiBoldSemiCondensed', Arial, sans-serif;
+/* background: linear-gradient(#0d5824, #536145, #830f45, #264e3a, #8000ff, #ff00ff, #68dd95); */
+background: black;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+  
+.container p {
+font-family: 'Courier New', Courier, monospace;
+}
+
+.chat-bubble {
+position: relative;
+width: 1fr;
+height: fit-content + 20px;
+background-color: rgba(255, 255, 255, 0.7);
+border-color: black;
+border-width: 2px;
+border-radius: 10px;
+border-style: dashed;
+padding: 10px;
+margin-bottom: 20px;
+text-align: justify;
+}
+
+.dropdown-toggle {
+align-items: center;
+background-size: contain;
+background-repeat: no-repeat;
+background-image: url(https://raw.githubusercontent.com/gist/KartSriv/3ec0038fbd26cdac8573382dc1cc857e/raw/b62b85e17ba62459c4c2f37e3d6314407d576f9f/nyancat.gif);
+border: 2px solid #111;
+margin-left: 7px;
+margin-top: 10px;
+border-radius: 8px;
+box-sizing: border-box;
+color: #111;
+cursor: pointer;
+display: flex;
+font-size: 16px;
+height: 48px;
+justify-content: center;
+line-height: 24px;
+max-width: 100%;
+padding: 0 25px;
+position: relative;
+text-align: center;
+text-decoration: none;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-left: 100px;
+}
+
+.dropdown-toggle:after {
+background-color: #111;
+border-radius: 8px;
+content: "";
+display: block;
+height: 48px;
+left: 0;
+width: 100%;
+position: absolute;
+top: -2px;
+transform: translate(8px, 8px);
+transition: transform .2s ease-out;
+z-index: -1;
+}
+
+.dropdown-toggle:hover:after {
+transform: translate(0, 0);
+}
+
+.dropdown-toggle:active {
+background-color: #ffdeda;
+outline: 0;
+}
+
+.dropdown-toggle:hover {
+outline: 0;
+}
+    
+  
+.show {
+display: block;
+}
+  
+.hero {
+/* background-size: cover; */
+justify-content: center;
+margin-top: 30px;
+}
+
+.summary {
+margin-top: 50px;
+height: 70vh;
+padding: 10px;
+}
+
+

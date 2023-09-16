@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Danger of Darkness</title>
+    <link rel="icon" type="image/x-icon" href="../image/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/fixed_style.css">
+    <link rel="stylesheet" href="../css/about-us.css">
+    <script src="../javascript/about-us.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Danger of Darkness</h1>
+            <ul class="nav-links">
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about-us.html">Team Profile</a></li>
+                    <div class="dropdown">
+                        <li class="dropbtn"><a href="project-desc.html">Project Description</a>
+                            <i class="fa fa-caret-down"></i></li>
+                        <div class="dropdown-content">
+                            <li><a href="project-desc.html">Overview</a></li>
+                            <li><a href="detail_desc.html">Detail Description</a></li>
+                            <li><a href="tools.html">Tools</a></li>
+                        </div>
+                    </div>
+                    <li><a href="skill_n_job.html">Skill And Job</a></li>
+                    <li><a href="group_reflect.html">Group Reflection</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="container">
+            <h1>HOLY IT GROUP</h1>
+            <p>Our team name is HOLY IT.
+                This name was created because we hope that our technology products will help human life became more easier.
+                We want everyone has to know about coding as much as possible because the majority of people nowadays know how to use technology but they do not know about how it created to protect their own devices exactly when. Thus, we want to do something special to inspire
+                the whole programmers to be creative and they can apply the technology into life to take care about the others’ life. </p>
+
+
+            <p style="text-align: center; font-size: 14px; color: brown;">Click on the pictures to get to know our members!</p>
+
+
+            <ul class="image-gallery">
+                <li onclick="overlayShow_baongoc()">
+                    <img src="../image/baongoc.jpg" alt="bao-ngoc" />
+                    <div class="overlay-info">
+                        <div class="text">
+                            <p>Studen Name: <br> Vo Nguyen Bao Ngoc</p>
+                            <p>Student ID: S3975091</p>
+                        </div>
+                    </div>
+                </li>
+                <li onclick="overlayShow_minhkhoi()">
+                    <img src="../image/minhkhoi.jpg" alt="minh-khoi" />
+                    <div class="overlay-info">
+                        <div class="text">
+                            <p>Studen Name: <br> Nguyen Minh Khoi</p>
+                            <p>Student ID: S3978862</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="image-gallery">
+                <li onclick="overlayShow_dongquan()">
+                    <img src="../image/dongquan.jpg" alt="dong-quan" />
+                    <div class="overlay-info">
+                        <div class="text">
+                            <p>Studen Name: <br> Bui Phuong Dong Quan </p>
+                            <p>Student ID: S3975939</p>
+                        </div>
+                    </div>
+                </li>
+                <li onclick="overlayShow_quangnhat()">
+                    <img src="../image/quangnhat.jpg" alt="quang-nhat" />
+                    <div class="overlay-info">
+                        <div class="text">
+                            <p>Studen Name: <br> Lam Quang Nhat</p>
+                            <p>Student ID: S3980424</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>  
+
+        <div id="minhkhoi-overlay" class="minhkhoi-overlay">
+            <div class="close-button">
+                <a onclick="overlayHide_minhkhoi()" id="close-button">X</a><br>
+            </div>
+            <div class="profile">
+                <h1>Student Profile</h1><br>
+                <h1>Nguyen Minh Khoi</h1><br>
+
+                <p>I am 19 years old and this semester marks my first at RMIT.
+                    Speaking of my personality, I am an introvert who finds it difficult to make friends easily. 
+                    As a result, I prefer working alone to working in a group. 
+                    Even though I prefer working alone, when I participate in group activities, I do my best to fulfill my obligations and assist my teammates.
+                    Considering my IT experience, after a few months of study at RMIT, my IT knowledge and skills have noticeably improved,
+                    and I have a thorough understanding of some programming languages like Python and HTML.
+
+            </div>
+        </div>
+
+        <div id="baongoc-overlay" class="baongoc-overlay">
+            <div class="close-button">
+                <a onclick="overlayHide_baongoc()" id="close-button">X</a><br>
+            </div>
+            <div class="profile">
+                <h1>Student Profile</h1><br>
+                <h1>Vo Nguyen Bao Ngoc</h1><br>
+
+                <p>Currently, I am nineteen years old and a freshman in information technology majoring in Data Analyst at RMIT.
+                    The reason I chose the field of information technology is because of its diversity, catching up with trends and being one of the fastest growing industries in the present and in the future.
+                    Thanks to information technology, data analysis is simplified through data screening tools such as SQL. 
+                    Starting with a passion for numbers I gradually learned more about information technology and how it made complex numbers simple. 
+                    I spent time digging deeper into this field and learned more about AI technology, cybersecurity, and cloud technology. 
+                    Since this is my first semester, I learned simple skills with Python, SQL, Oracle apex, Linus, Github through Introduction to Programming, Practical Database Concept and Introduction to Information Technology.
+                    With limited experience, I keep updating myself daily by learning more tools like HTML and Javascript programming language. Through the lecturer's lectures, 
+                    I realized the potential of information technology is limitless. If I want to keep up in this field, I must constantly learn and develop myself. 
+                </p>
+
+            </div>
+        </div>
+
+        <div id="dongquan-overlay" class="dongquan-overlay">
+            <div class="close-button">
+                <a onclick="overlayHide_dongquan()" id="close-button">X</a><br>
+            </div>
+            <div class="profile">
+                <h1>Student Profile</h1><br>
+                <h1>Bui Phuong Dong Quan</h1><br>
+
+                <p>If I were to sum up who I am in a single phrase, I'd say I'm a person who immerses myself in technologies and innovation.
+                    I was quite interested in math and physics when I was in high school. 
+                    In addition, I am really interested in IT because of its ability to make people's lives better and increase productivity.
+                    I have strong English abilities in addition to my fluency in Vietnamese, which has helped me while communicating, studying, and conducting research.
+                    Whenever I have free time, I like to play basketball with my friends.
+                    My knowledge of programming is currently fairly poor;
+                    I just have a rudimentary understanding of it, but these skills will develop over time. 
+                </p>
+
+            </div>
+        </div>
+
+        <div id="quangnhat-overlay" class="quangnhat-overlay">
+            <div class="close-button">
+                <a onclick="overlayHide_quangnhat()" id="close-button">X</a><br>
+            </div>
+            <div class="profile">
+                <h1>Student Profile</h1><br>
+                <h1>Lam Quang Nhat</h1><br>
+                <p>  This is my first semester at RMIT University.
+                    I have a passion for the IT industry, especially AI.
+                    I want to apply AI in real life to make human life more convenient. 
+                    Thus, this project can be seem as my first step to practice and master the computer language.
+                    I usually spend my time researching and learning new things about coding. 
+                    Besides that, I play some types of sports to improve my health because
+                    I know that I have to sit in front of the screen of the computer a lot so 
+                    I need to have good physical health and mental health also.  </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section>
+            <h1>Horror game: Danger of Darkness </h1>
+            <p><strong>It is entertainment but also heals the soul of the child in you</strong></p>
+            <p><strong>Copyright &copy; 2023 Bao Ngoc</strong></p>
+            <div class="footer-nav">
+                <ul class="nav-bar">
+                    <div class="menu nav-links">
+                        <li><a href="#">Team Profile</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Copyright</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </div>
+                </ul>
+            </div>
+            <p><strong>Sponsored by</strong></p>
+            <img class="footer-logo" src="../image/logo_rmit.png" alt="logo" />
+        </section>
+    </footer>
+</body>
