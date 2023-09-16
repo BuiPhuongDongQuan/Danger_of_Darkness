@@ -3,7 +3,7 @@
 
 <head>
     <title>Danger of Darkness</title>
-    <link rel="icon" type="image/x-icon" href="../logo.png">
+    <link rel="icon" type="image/x-icon" href="../image/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/fixed_style.css">
@@ -40,154 +40,73 @@
     <main>
         <h1>Detailed Description</h1>
 
-        <ul class="nav">
-            <li data-cont="r1">Aims</li>
-            <li data-cont="r2">Plans and Progress</li>
-            <li data-cont="r3">Roles</li>
-            <li data-cont="r4">Scope & Limits</li>
-            <li data-cont="r5">Tools and Technologies</li>
-            <li data-cont="r6">Testing</li>
-            <li data-cont="r7">Timeframe</li>
-            <li data-cont="r8">Risks</li>
-            <li data-cont="r9">Group Processes & Communications</li>
-        </ul>
-        <section id="r1" class="section section-one active">
-            <h2>Aims</h2>
-            <p>The specific aim of our product is to get people to throw their trash into designated trash collection points, such as containers and bins, and not on the ground or in rivers. Realistically, we want to lay the foundation of a better recycling infrastructure so it is easier to collect trash in bins before continuing the more sophisticated recycling process. Our bins should provide a simple way of collecting trash, both in bulk and in smaller pieces, and give the opportunity to sort for specific trash. That is why the main priority of our project is to provide a solid and reliable waste bin that is visually pleasing and encourages people to use it by being obvious and spacious. Its main components should be very easy to maintain daily, and the technology should not make the basic routine of changing the bin difficult. The main objective is to build a robust and convenient trash bin and add visual feedback and a sorting mechanism. Every other technological solution could be optional and only provide additional support.
-                <br><br>To achieve our main objective, we need to engineer a good structure for our bin and make sure it is reliable and meets the standards of public bins. Furthermore, we need to make ethnographic observations and field studies in order to understand how people in Vietnam tend to use bins and throw away trash. If no one is willing to use a bin for their trash, then we need to change the way we employ our product. Firstly, we have to understand the people's willingness and awareness of waste management to guarantee the success of our project. Even though our product should be encouraged through visually pleasing design and feedback, its main objective is to be used as a waste bin by the general public. Furthermore, we need to consider the placement and quantity of our product, as we have to employ multiple products in busy areas. That means that we have to find a reproducible and cost-efficient way of developing our smart bin.
-                </p>
-        </section>
-        <section id="r2" class="section section-two">
-            <h2>Plans and Progress</h2>
+        <h2>Accordion</h2>
 
-            <p>
-            </p>
-
-        </section>
-        <section id="r3" class="section section-three">
-
-        <div id="wrapper">
-            <!-- Begin Header -->
-            <div id="header"><h1><a href="http://www.free-css.com/free-css-layouts.php">Roles</a></h1></div>
-            <!-- End Header -->
-            <!-- Begin Left Column -->
-            <div id="leftcolumn"> Left Column </div>
-            <!-- End Left Column -->
-            <!-- Begin Right Column -->
-            <div id="rightcolumn"> Right Column </div>
-            <!-- End Right Column -->
-            </div>
-        </section>
-        <section id="r4" class="section section-three">
-            <h2>Scope & Limits</h2>
-            <p></p>
-            <br>  
-            <p></p>
-
-            <ul>
-                <li><b>Subjectively:</b>
-                    <br>note
-                     
-                    <br>
-                    note
-                </li>
-            </ul>
-
-
-        </section>
-        <section id="r5" class="section section-three">
-            <h2>Tools and Technologies</h2>
-            <p>In order for us to reach our initial outcome, which is a smart, eco-friendly bin that has the capability to recognize the type of trash that it belongs to, we do need to use different kinds of tools and technologies. In general, Google products such as Drive, Docs, Sheets are utilised as a means of creating and storing documents on cloud; while Github, Github Desktop (Version 3.2.3.0) and Visual Studio Code (Version 1.78) are for writing source code  and implement a shared workspace for team collaboration. Firstly, with the software part, we decided to use Machine Learning in general and specifically Computer Vision technology to help us classify the type of object through a camera that plugs inside the bin. This technology is not new in the Artificial Intelligence field, but it is one of the hottest topics that is getting lots of attention from both industry and academia. We recently decided to use a model that has already been pre-trained on the Internet, as this task is not rare and there are lots of different models that have been trained to do this downstream task already. There won’t be any problem in terms of the software licences for this kind of technology due to most of the Machine Learning model being open source and everyone being able to contribute to it. Next, we are also going to use Python as the main programming language for this project because the complexity of the syntax is low and every team member can learn it. But also due to its popularity with Machine Learning as well. Python is one of the famous programming languages that is used specifically for artificial intelligence and machine learning. According to Hackr.io, Python is one of the most popular and powerful programming languages for AI due to its code length, typing, difficulty to learn, community, and code bases that support AI.
-            </p>
-            <br><br>
-            <p>When moving on to hardware, since we need to convert the software into a chip or a mainboard, we consider either using an Arduino or a Raspberry Pi. Both of them have different pros and cons, and depending on what the use cases are going to look like, one technology could outweigh the other. When it comes to Arduino, people usually think about projects that have some repetitive tasks and are simple, like turning the lights on or off or reading from the sensor. The Raspberry Pi can be more suitable for performing tasks that are complicated and require multiple steps, phases, or different combinations of actions. But overall, both of them will be supported by Python, so that would help us connect between the software and the hardware. Other minor hardware items would include a camera that has a low frame rate per second (FPS), as this would help us take the picture faster and more precisely, and a 4G connected device, as this would make it easier to manage the location of the smart bin.
-            </p>
-        </section>
-        <section id="r6" class="section section-three">
-            <h2>Testing</h2>
-
-            <p>For our project, the testing is of paramount importance for success, as it caters to a broad target group. Based on Rudd et al. (1998), it is beneficial to use multiple, parallel, lo-fi prototypes during the design of an artefact rather than high-fi prototypes to reduce design fixation, production, and design costs. In our case, this is only partially possible, as our testing would require a physical, robust product that is able to function in a natural setting. Our user testing would be divided into different stages, where we would <b>first</b> build a simple structure for the bin without any technical components. This is for us to focus on creating a bin that the general public accepts and perceives as convenient to use. By using a natural setting in this stage, we are able to observe if one design is more encouraging than another, thus getting a better insight into the user experience. The user testing would be cost-efficient, and as our product would be used in variable natural settings, it would be easy for us to deploy them for user testing. The testing would be structured with an iterative, daily summary that includes user interviews, field notes, and observations that focus on people's behaviour and usage of the bin. There is no limit to the amount of participation, as it would be placed in a natural setting, and more participants result in more data for us.
-            <br><br><b>The second phase</b> would include a simple mechanism for visual feedback in order to observe if a visual feature would encourage the users to use the bin more. In this phase, it is important to conduct qualitative interviews and observations to measure the benefits of a smart bin over a regular bin and how this is perceived by the users. We would try to have multiple testing stations across different areas to see if certain patterns could be detected through geographical parameters. In general, our motivation is to incorporate as much user testing as possible in each design stage of the project, with a strong focus on contemporary design-thinking theory and approaches (Interaction Design Foundation, n.d.). This will guarantee us the ability to develop a relevant solution that can contribute to our goal of spreading awareness and supporting sustainable waste management.
-
-            </p>
-
-        </section>
-        <section id="r7" class="section section-three">
-            <h2>Timeframe</h2>
-            <p>You can view the detailed plans <a href="https://app.teamgantt.com/projects/gantt?ids=3547118" style="color: blue; font-size: 18px;">here</a></p>
-        </section>
-        <section id="r8" class="section section-three">
-            <h2>Risks</h2>
-            <div id="doc" class="yui-t2">
-                <div id="bd">
-                  <div id="yui-main">
-                    <div class="yui-b">
-                      <div class="yui-gb">
-                        <div class="yui-u first">
-                          <div class="content">Content Here</div>
-                        </div>
-                        <div class="yui-u">
-                          <div class="content">Content Here</div>
-                        </div>
-                        <div class="yui-u">
-                          <div class="content">Content Here</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="yui-b">
-                    <div id="secondary">Secondary Column</div>
-                  </div>
-                </div>
-        </section>
-        <section id="r9" class="section section-three">
-            <h2>Group Processes & Communications</h2>
-
-            <p> note
-            </p>
-            <ul>
-                <li><b>Channels</b>
-                    <p> note </p>
-                </li>
-
-                <li><b>Rules</b>
-                    <p>note</p>
-                    <ul>
-                        <li></li>
-
-                        <li>Be punctual.
-                        </li>
-
-                        <li>note
-                        </li>
-
-                        <li>note
-                        </li>
-
-                    </ul>
-                </li>
-
-                <li><b>Frequency</b>
-                    <p>note
-                    </p>
-                </li>
-            </ul>
-            <br><br>
-            <p>note
-            </p>
-
-        </section>
-
-        <div class="button">
-            <button class="previous disable" id="previous">Previous</button>
-            <button class="next" id="next">Next</button>
+        <button class="accordion">Section 1</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
-    </main>
+        
+        <button class="accordion">Section 2</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        
+        <button class="accordion">Section 3</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
 
+        <button class="accordion">Section 4</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        
+        <button class="accordion">Section 5</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        
+        <button class="accordion">Section 6</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <button class="accordion">Section 7</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        
+        <button class="accordion">Section 8</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        
+        <button class="accordion">Section 9</button>
+        <div class="panel">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+        });
+    }
+    </script>
     <footer>
-        <section>
+        <section>           
             <h1>Danger of Darkness</h1>
-            <p><strong>note</strong></p>
+            <p><strong>Experiencing fear</strong></p>
             <p><strong>Copyright &copy; 2023 Group 7 - COSC2023</strong></p>
             <div class="footer-nav">
                 <ul class="nav-bar">
@@ -201,54 +120,7 @@
                 </ul>
             </div>
             <p><strong>Sponsored by</strong></p>
-            <img class="footer-logo" src="../images/RMIT_store_blue_logo.png" alt="logo" />
+            <img class="footer-logo" src="../image/logo_rmit.png" alt="logo" />
         </section>
     </footer>
-
-    <script>
-        let currentSection = 0;
-        let sections = document.querySelectorAll(".section");
-        let sectionButtons = document.querySelectorAll(".nav > li");
-        let nextButton = document.querySelector(".next");
-        let previousButton = document.querySelector(".previous");
-        for (let i = 0; i < sectionButtons.length; i++) {
-            sectionButtons[i].addEventListener("click", function () {
-                sections[currentSection].classList.remove("active");
-                sectionButtons[currentSection].classList.remove("active");
-                sections[currentSection = i].classList.add("active");
-                sectionButtons[currentSection].classList.add("active");
-                if (i === 0) {
-                    if (previousButton.className.split(" ").indexOf("disable") < 0) {
-                        previousButton.classList.add("disable");
-                    }
-                } else {
-                    if (previousButton.className.split(" ").indexOf("disable") >= 0) {
-                        previousButton.classList.remove("disable");
-                    }
-                }
-                if (i === sectionButtons.length - 1) {
-                    if (nextButton.className.split(" ").indexOf("disable") < 0) {
-                        nextButton.classList.add("disable");
-                    }
-                } else {
-                    if (nextButton.className.split(" ").indexOf("disable") >= 0) {
-                        nextButton.classList.remove("disable");
-                    }
-                }
-            });
-        }
-
-        nextButton.addEventListener("click", function () {
-            if (currentSection < sectionButtons.length - 1) {
-                sectionButtons[currentSection + 1].click();
-            }
-        });
-
-        previousButton.addEventListener("click", function () {
-            if (currentSection > 0) {
-                sectionButtons[currentSection - 1].click();
-            }
-        });
-
-    </script>
 </body>
