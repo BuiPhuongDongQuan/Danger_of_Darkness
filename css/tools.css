@@ -4,5 +4,6 @@
 }
 
 .container h1, p {
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    text-align: center;
 }
