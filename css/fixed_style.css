@@ -66,6 +66,8 @@ footer>p {
     display: flex;
     gap: 1em;
     font-size: 18px;
+    text-align: center;
+    align-items: center;
 }
 
 .menu li:hover {
@@ -75,13 +77,13 @@ footer>p {
 }
 
 .menu li {
-    padding: 5px 14px;
+    padding: 10px 14px;
 }
 
 .menu .active {
     background-color: #F15A59;
-    border-radius: 5px;
-    padding: 5px 14px;
+    border-radius: 0px;
+    padding: 10px 14px;
 }
 
 .hamburger {
