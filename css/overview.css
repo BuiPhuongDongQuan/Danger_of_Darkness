@@ -6,6 +6,8 @@
 
 h1 {
     margin-top: 20px;
+    color: red;
+    text-align: center;
 }
 
 section {
@@ -31,45 +33,42 @@ section {
 }
 
 
-.class {
-    padding: 140px 0px 60px 0px;
-}
-
-.class .titlepage p {
-    font-size: 17px;
-    padding-top: 15px;
-    color: #2b2b2b;
-}
-
-.class_box {
-    border-radius: 10px;
-    background: #f0390f;
-    margin-bottom: 58px;
-    transition: ease-in all 0.5s;
-    padding: 40px 50px 75px 50px;
-}
-
-.class_box h3 {
-    color: #fff;
-    font-size: 25px;
-    transition: ease-in all 0.5s;
-    font-weight: bold;
-    line-height: 22px;
-    padding: 30px 0;
-}
-
-.class_box p {
-    color: #fff;
-    font-size: 16px;
-    line-height: 28px;
-    transition: ease-in all 0.5s;
-}
-
-.blue {
-    background: #3e0bce;
-}
-
-.margi_bottom {
-    margin-bottom: 30px;
-}
-
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

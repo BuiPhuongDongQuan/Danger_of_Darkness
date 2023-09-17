@@ -1,9 +1,17 @@
 .container {
-    margin-top: 20px;
+    background-color: lightgrey;
+    width: 1650px;
+    border: 15px solid red;
+    padding: 50px;
+    margin: 20px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 .container h1, p {
     margin-bottom: 20px;
     text-align: center;
 }
+

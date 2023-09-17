@@ -2,7 +2,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .container p,
@@ -100,8 +100,6 @@
     text-align: center;
     align-items: center;
 }
-
-
 
 .overlay-info {
     position: absolute;

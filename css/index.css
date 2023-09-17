@@ -3,10 +3,10 @@
 /*------------------------------------------------------------------------------------------*/
 
 .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3em;
 }
 
 .main-container h3 {
@@ -124,75 +124,18 @@ section {
 
 /* Main Widths */
 
-.col-1 {
-    width: 100%;
-}
 
 .col-2 {
-    width: 50%;
+    width: 100%;
 }
 
 .col-3 {
     width: 33.33%;
 }
 
-.col-4 {
-    width: 25%;
-}
-
-.col-5 {
-    width: 20%;
-}
-
-.col-6 {
-    width: 16.6666666667%;
-}
-
-.col-7 {
-    width: 14.2857142857%;
-}
-
-.col-8 {
-    width: 12.5%;
-}
-
-.col-9 {
-    width: 11.1111111111%;
-}
-
-.col-10 {
-    width: 10%;
-}
-
-.col-11 {
-    width: 9.09090909091%;
-}
-
-.col-12 {
-    width: 8.33%;
-}
-
 .col-2-3 {
-    width: 66.66%;
+    width: 100%;
 }
-
-.col-3-4 {
-    width: 75%;
-}
-
-.col-9-10 {
-    width: 90%;
-}
-
-/* Golden Ratio */
-.col-61 {
-    width: 61.8%;
-}
-
-.col-38 {
-    width: 38.2%;
-}
-
 
 .caption {
     flex: 1;
