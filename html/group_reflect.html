@@ -44,11 +44,11 @@
         </section>
 
         <body>
-
-            <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
             <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+            <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
             <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
             <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+            <button class="tablink" onclick="openPage('Sign', this, 'yellow')">Sign</button>
             
             <div id="Home" class="tabcontent">
               <h3>Home</h3>
@@ -69,11 +69,32 @@
               <h3>About</h3>
               <p>Who we are and what we do.</p>
             </div>
-            <div class="container">
-                <h1>Tools</h1>
-                <p>note
-                </p>
+
+            <div id="Sign" class="tabcontent">
+                <h3>Sign</h3>
+                <p>Who we are and what we do.</p>
             </div>
+
+            <footer>
+                <section>
+                    <h1>Horror game: Danger of Darkness</h1>
+                    <p><strong>Experiencing fear</strong></p>
+                    <p><strong>Copyright &copy; 2023 Group 7 - COSC2023</strong></p>
+                    <div class="footer-nav">
+                        <ul class="nav-bar">
+                            <div class="menu nav-links">
+                                <li><a href="#">Team Profile</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Copyright</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <p><strong>Sponsored by</strong></p>
+                    <img class="footer-logo" src="../image/logo_rmit.png" alt="logo" />
+                </section>
+            </footer>
         </body>
 <script src="../javascript/group_ref.js"></script>
 </html>
