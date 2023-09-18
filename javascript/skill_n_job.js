@@ -1,7 +1,7 @@
 const jobs = [
     {
       title: "Game Artist",
-      image: "../images/sales-representative.svg",
+      image: "../image/icon3.png",
       details:
         "Responsible for the visual of the product ",
       descriptions: 
@@ -26,7 +26,7 @@ const jobs = [
   
     {
       title: "Game Tester",
-      image: "../images/marketing-manager.svg",
+      image: "../image/icon2.png",
       details:
         "Responsible for product quality.",
       descriptions: 
@@ -47,7 +47,7 @@ const jobs = [
     },
     {
         title: "Game Developer",
-        image: "../images/software-engineer.svg",
+        image: "../image/icon4.png",
         details:
           "Responsible for designing, developing and maintaining software systems and applications.",
         descriptions:
@@ -69,7 +69,7 @@ const jobs = [
 
   {
     title: " Marketing Specialist",
-    image: "../images/product-manager.svg",
+    image: "../image/icon.png",
     details:
       "Responsible for creating and executing marketing strategies to promote the project .",
     descriptions:

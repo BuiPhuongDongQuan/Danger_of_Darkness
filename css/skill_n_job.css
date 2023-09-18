@@ -240,7 +240,7 @@ div.desc {
   text-align: center;
   margin-top: 20px;
   transition: all 400ms ease;
-  background-color: #ccce43;
+  background-color: red;
 }
 
 .jobs-list-container .details-btn:hover {
