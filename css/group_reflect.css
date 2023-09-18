@@ -7,7 +7,9 @@ body {
     /* background-image: linear-gradient( 115deg, rgba(50, 58, 44, 0.6), rgba(2, 2, 7, 0.9) ),url(https://assets.raribleuserdata.com/prod/v1/image/t_gif_big/aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1ha3JzVHN3aEtQZFB4UXFzcFlycms1VndHNGZUZ0RCUWp2WUVyeWZuQlVaQy9pbWFnZS5naWY=); 
 background-size: cover;
 background-repeat: no-repeat; */
-    background-color: #FFF8F0;
+  
+    background-image: url("../image/Background3.jpg");
+    background-size: 100%;
 }
 
 
@@ -17,6 +19,7 @@ background-repeat: no-repeat; */
     text-align: center;
     color: rgb(88, 31, 10);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    
 }
 
 body, html {
@@ -28,7 +31,7 @@ body, html {
   /* Style tab links */
 .tablink {
     background-color: red;
-    color: black;
+    color: white;
     float: left;
     border-radius: 25px;
     outline: none;
@@ -40,6 +43,7 @@ body, html {
   
   .tablink:hover {
     background-color: #777;
+    color: white;
 }
   
   /* Style the tab content (and add height:100% for full page content) */
