@@ -8,7 +8,7 @@ body {
 .registration-form {
     /* font-family: "Rubik", sans-serif; */
     text-align: center;
-    background-image: linear-gradient( 115deg, rgba(46, 31, 25, 0.6), rgba(2, 2, 7, 0.9) ),url("../image/Homepage2.png");
+    background-image: linear-gradient( 115deg, rgba(46, 31, 25, 0.6), rgba(2, 2, 7, 0.9) ),url("../image/Background1.jpg");
     image-rendering: pixelated;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -18,143 +18,161 @@ body {
     height: 50vh;
 }
 
-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    margin-top: 40px;
-    max-width: 400px;
-    padding: 0.5rem;
-    background-color: rgba(5, 55, 68, 0.6);
-    border-radius: 7px;
-    /* font-family: "Rubik", sans-serif; */
-  }
-
-form label {
-  display: block;
-  margin: 0.5rem 0;
-}
-
-form input[type="text"],
-form input[type="email"],
-form input[type="file"],
-form button[type="submit"] {
+/* Full-width input fields */
+input[type=text], input[type=password] {
   width: 100%;
-  padding: 0.5rem;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-}
-
-form input[type="file"] {
-  margin-bottom: 1rem;
-}
-
-form button[type="submit"] {
-  background-color: #5f323f;
-  color: white;
-  cursor: pointer;
-}
-
-*/ .registration-form {
-  position: relative;
-}
-
-.registration-form p {
-  color: rgb(168, 168, 89);
-}
-
-#subbtn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-
-#subbtn:not(:disabled) {
-  background-color: #6b404d;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: all 0.5s ease-in-out;
-}
-
-#subbtn:not(:disabled):hover {
-  cursor: pointer;
-}
-
-
-.registration-form form label {
+  padding: 15px;
+  margin: 5px 0 22px 0;
   display: inline-block;
-  width: 100px;
-  margin-right: 10px;
+  border: none;
+  background: #f1f1f1;
 }
 
-.registration-form form input[type="email"] {
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: red;
+  border: none;
+  color: black;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-  width: calc(100% - 110px);
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
-  margin-right: 10px;
-}
-
-.registration-form form input[type="submit"] {
-  background-color: rgb(218, 159, 51);
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 13px;
-  font-family: 'Courier New', Courier, monospace;
+  margin: 8px 0px;
   cursor: pointer;
-  transition: transform 0.5s ease;
+  border-radius: 16px;
 }
 
-.registration-form form input[type="submit"]:disabled {
-  opacity: 0.5;
-  background-color: #ce6b43;
-  cursor: default;
+button:hover {
+  background-color: #f1f1f1;
 }
 
-
-.hire-section {
-background-color: #d8e4a6;
-padding: 20px;
-text-align: center;
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
 }
 
-.hire-section h2 {
-  font-size: 30px;
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
   font-weight: bold;
-  color: rgb(32, 5, 5);
-  margin-bottom: 10px;
+  color: #f1f1f1;
 }
 
-.hire-section p {
-  font-size: 17px;
-  color: #333;
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
 }
 
-.hiring-description {
-  margin: 0px;
-  border-radius: 10px;
-  background-color: rgba(245, 229, 229, 0.5);
-  padding: 5px 20px 20px 5px;
-  font-size: 15px;
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-ul {
-  list-style: disc;
-  margin-left: 40px;
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
 }
 
-li {
-  margin-bottom: 10px;
+div.gallery {
+  border: 1px solid #ccc;
 }
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
 
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .jobs-list-container {
     max-width: 80%;

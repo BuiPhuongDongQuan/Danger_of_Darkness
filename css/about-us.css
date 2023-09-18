@@ -71,7 +71,7 @@
     height: fit-content;
     background-color: #A91B0D;
     border-radius: 5px;
-    position: absolute;
+    position: absolute; 
     left: 50%;
     transform: translate(-50%, -50%) scale(0.1);
     text-align: center;
@@ -90,6 +90,7 @@
     align-items: center;
     padding: 20px 0;
     margin-left: 48px;
+    border-radius: 25px;
 }
 
 .close-button {
