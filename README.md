@@ -16,4 +16,4 @@ This is a website for group assignment
 # Related link:
 Link to GitHub repo: [HOLY IT](https://github.com/BuiPhuongDongQuan/Danger_of_Darkness)
 
-Link to the website: [Danger of Darkness](https://github.com/BuiPhuongDongQuan/Danger_of_Darkness/blob/main/html/index.html)
+Link to the website: [Danger of Darkness](https://BuiPhuongDongQuan.github.io/Danger_of_Darkness/html/index.html)
