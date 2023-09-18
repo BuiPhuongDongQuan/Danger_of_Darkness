@@ -5,21 +5,20 @@ const jobs = [
       details:
         "Responsible for the visual of the product ",
       descriptions: 
-      "Key responsibilities:\n\
-      - Generate and develop artistic ideas from briefs or commissions.\n\
-      - Sketch out ideas and/or build 3D models.\n\
-      - Design characters, images in game, posters, webpage.\n\
-      - Collaborate with order artists or members from other positions such as game designer, game animator.\n\
-      - Comply with production plans and submit on time.\n\
-      \n\
-      \n\
-      Requirements:\n\
-      - Good teamwork skills.\n\
-      - Always learn and improve artistic skills.\n\
-      - Be creative.\n\
-      - Proficient in 3D design software such as 3ds Max, Zbrush, Maya.\n\
-      - Deep understanding of art and painting ability.\n\
-      .",
+      `Key responsibilities:<br>
+      - Generate and develop artistic ideas from briefs or commissions.<br>
+      - Sketch out ideas and/or build 3D models.<br>
+      - Design characters, images in game, posters, webpage.<br>
+      - Collaborate with order artists or members from other positions such as game designer, game animator.<br>
+      - Comply with production plans and submit on time.<br>
+      <br>
+      Requirements:<br>
+      - Good teamwork skills.<br>
+      - Always learn and improve artistic skills.<br>
+      - Be creative.<br>
+      - Proficient in 3D design software such as 3ds Max, Zbrush, Maya.<br>
+      - Deep understanding of art and painting ability.<br>
+      `,
       openPositions: "1",
       link: "#",
     },
@@ -30,39 +29,38 @@ const jobs = [
       details:
         "Responsible for product quality.",
       descriptions: 
-      `Key responsibilities:
-      -Testing the game for bugs and other problems.
-      - Creating and executing cases.
-      - Reporting bugs and other problems to the development team.
-      -Providing feedback on the game.
-
-      Requirements:
-      - Possess knowledge of various project management techniques, such as Waterfall, Agile, DevOps, and Continuous Delivery. 
-      - Solid knowledge of issue tracking and project management. 
-      - Excellent at monitoring and evaluating data and findings. .
-      - Able to multitask, set priorities, and govern oneself. 
-      - Knowledge of game engines.`,
+      `Key responsibilities:<br>
+      -Testing the game for bugs and other problems.<br>
+      - Creating and executing cases.<br>
+      - Reporting bugs and other problems to the development team.<br>
+      -Providing feedback on the game.<br>
+      <br>
+      Requirements:<br>
+      - Possess knowledge of various project management techniques, such as Waterfall, Agile, DevOps, and Continuous Delivery. <br>
+      - Solid knowledge of issue tracking and project management. <br>
+      - Excellent at monitoring and evaluating data and findings.<br>
+      - Able to multitask, set priorities, and govern oneself. <br>
+      - Knowledge of game engines.<br>`,
       openPositions: "1",
       link: "#",
     },
     {
         title: "Game Developer",
-        image: "../image/icon4.png",
+        image: "../image/icon4.jpg",
         details:
           "Responsible for designing, developing and maintaining software systems and applications.",
-        descriptions:
-        "Key responsibilities:\n\
-        - Can work individual and teamwork effectively. \n\
-        - Enhance and improve the game base on the customers’ feedback. \n\
-        - The graphics of the game should be at the high quality. \n\
-        - Create a various feeling through many different topics or contents frequenlty for the customers.  .\n\
-        \n\
-        \n\
-        Requirements:\n\
-        - In-depth knowledge of programming 3D game.\n\
-        - Have a large number of experiencing the 3D game to know it works.\n\
-        - Have an ability to fix bugs and simplify the game performance suitably.\n\
-        ",
+        descriptions: `
+        "Key responsibilities:<br>
+        - Can work individual and teamwork effectively. <br>
+        - Enhance and improve the game base on the customers’ feedback. <br>
+        - The graphics of the game should be at the high quality. <br>
+        - Create a various feeling through many different topics or contents frequenlty for the customers. <br>
+        <br>
+        Requirements:<br>
+        - In-depth knowledge of programming 3D game.<br>
+        - Have a large number of experiencing the 3D game to know it works.<br>
+        - Have an ability to fix bugs and simplify the game performance suitably.<br>
+        `,
     openPositions: "1",
     link: "#",
   },
@@ -72,17 +70,17 @@ const jobs = [
     image: "../image/icon.png",
     details:
       "Responsible for creating and executing marketing strategies to promote the project .",
-    descriptions:
-      "Key responsibilities:\n\
-      - Responsible for managing project communications, creating content and continuously updating trends. Analyze the game market and draft a communication plan. Manage the game's website and media accounts.\n\
-      - Responsible for representing the product. \n\
-      \n\
-      Requirements:\n\
-      - Have experience in the communications industry and master basic skills related to office information technology such as excel, word, etc.\n\
-      - Good communicated ability.\n\
-      - Understanding of IT aspects, especially games.\n\
-      - Soft skills such as problem solving, analysis and flexibility in handling emergency situations.\n\
-     ",
+    descriptions:`
+      "Key responsibilities:<br>
+      - Responsible for managing project communications, creating content and continuously updating trends. Analyze the game market and draft a communication plan. Manage the game's website and media accounts.<br>
+      - Responsible for representing the product. <br>
+      <br>
+      Requirements:<br>
+      - Have experience in the communications industry and master basic skills related to office information technology such as excel, word, etc.<br>
+      - Good communicated ability.<br>
+      - Understanding of IT aspects, especially games.<br>
+      - Soft skills such as problem solving, analysis and flexibility in handling emergency situations.<br>
+     `,
     openPositions: "1",
     link: "#",
   }
