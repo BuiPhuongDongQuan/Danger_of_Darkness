@@ -1,95 +1,88 @@
 const jobs = [
     {
-      title: "Industrial Designer/ UI,UX Designer",
+      title: "Game Artist",
       image: "../images/sales-representative.svg",
       details:
-        "Responsible for the visual of the product, taking into account materials, processes, and costs. ",
+        "Responsible for the visual of the product ",
       descriptions: 
       "Key responsibilities:\n\
-      - Creating sketches and renderings of the smartbin\n\
-      - Selecting materials and manufacturing processes that meet cost and quality requirements\n\
-      - Design the physical appearance of the smart bin, as well as ensuring that it meets ergonomic and safety requirements.\n\
-      - Design the overall user experience and interface of the smartbin.\n\
-      - Make sure the UX is intuitive, handy and aesthetically pleasing to the eye.\n\
-      - Create wireframes, mockups, and prototypes to illustrate the design ideas.\n\
-      - Conduct user research and usability testing to validate design decisions and create user persona.\n\
-      - Keeping on top of design trends and best practices.\n\
+      - Generate and develop artistic ideas from briefs or commissions.\n\
+      - Sketch out ideas and/or build 3D models.\n\
+      - Design characters, images in game, posters, webpage.\n\
+      - Collaborate with order artists or members from other positions such as game designer, game animator.\n\
+      - Comply with production plans and submit on time.\n\
       \n\
-      Qualifications:\n\
-      - Undergraduate degree in Design Studies, Human-computer Interface (HCI), or relevant.\n\
-      - A strong portfolio of previous design work, high creativity is a bonus.\n\
-      - Experience in product design, modelling, and prototyping. Strong understanding of user-centred design principles and a passion for creating innovative and functional products.\n\
-      - One should also have knowledge of materials and manufacturing processes.\n\
-      - Strong design skills and proficiency in design tools such as Sketch, Figma, CAD or Adobe Creative Suite.\n\
-      - Experience with user research and usability testing.\n\
-      - Excellent communication skills and the ability to present design concepts effectively.",
+      \n\
+      Requirements:\n\
+      - Good teamwork skills.\n\
+      - Always learn and improve artistic skills.\n\
+      - Be creative.\n\
+      - Proficient in 3D design software such as 3ds Max, Zbrush, Maya.\n\
+      - Deep understanding of art and painting ability.\n\
+      .",
       openPositions: "1",
       link: "#",
     },
   
     {
-      title: "Hardware Engineer (Mechatronics)",
+      title: "Game Tester",
       image: "../images/marketing-manager.svg",
       details:
-        "Responsible for designing, developing and maintaining hardware components.",
+        "Responsible for product quality.",
       descriptions: 
       `Key responsibilities:
-      - Designing, developing, prototyping and testing the smartbin's hardware components.
-      - Conduct feasibility studies, risk assessments, and cost-benefit analysis to support hardware design decisions.
-      - Create and maintain the hardware design documents, specifications, and testing procedures.
-      - Troubleshoot and debug hardware issues during development and production phases.
-      - Follow current knowledge of the newest hardware technology and trends to maintain the project's market competitiveness.
+      -Testing the game for bugs and other problems.
+      - Creating and executing cases.
+      - Reporting bugs and other problems to the development team.
+      -Providing feedback on the game.
 
-      Qualifications:
-      - Bachelor's degree in Electrical Engineering/ Mechatronics.
-      - Competence in microcontroller programming and embedded systems (particularly sensors and actuators).
-      - Proficient in schematic capture and simulation tools, circuit design, and analysis.
-      - Proficient in industry-standard software, such as Altium Designer and SPICE.
-      - Expertise in programming languages such as C or Assembly. Should be able to perform testing and debugging of hardware systems and have knowledge of regulatory requirements for electronics.`,
+      Requirements:
+      - Possess knowledge of various project management techniques, such as Waterfall, Agile, DevOps, and Continuous Delivery. 
+      - Solid knowledge of issue tracking and project management. 
+      - Excellent at monitoring and evaluating data and findings. .
+      - Able to multitask, set priorities, and govern oneself. 
+      - Knowledge of game engines.`,
       openPositions: "1",
       link: "#",
     },
     {
-        title: "Sr. Software Engineer (Data Analyst)",
+        title: "Game Developer",
         image: "../images/software-engineer.svg",
         details:
           "Responsible for designing, developing and maintaining software systems and applications.",
         descriptions:
         "Key responsibilities:\n\
-        Develop and maintain software that powers the smartbin:\n\
-        >  Designing and implementing the data analytics component of the smart bin.\n\
-        > Analyse data collected from the smartbin to provide insights into usage patterns and identify areas for improvement.\n\
-        Work closely with the technical leader to design and implement new features and functionality.\n\
-        Write clean, efficient, and maintainable code.\n\
-        Identify and troubleshoot errors.\n\
-        Make sure the software integrates with other systems without a hitch by working together with other team members.\n\
+        - Can work individual and teamwork effectively. \n\
+        - Enhance and improve the game base on the customers’ feedback. \n\
+        - The graphics of the game should be at the high quality. \n\
+        - Create a various feeling through many different topics or contents frequenlty for the customers.  .\n\
         \n\
-        Qualifications:\n\
-        CS or SE bachelor's or master's degree or equivalent in a relevant subject.\n\
-        Extensive programming skills in Python, Java, and R.\n\
-        Knowledge of source control, software testing frameworks like Git, JIRA, and Jenkins, and software development tools and environments.\n\
-        Solid experience with data analysis, computer vision and relevant technologies.",
+        \n\
+        Requirements:\n\
+        - In-depth knowledge of programming 3D game.\n\
+        - Have a large number of experiencing the 3D game to know it works.\n\
+        - Have an ability to fix bugs and simplify the game performance suitably.\n\
+        ",
     openPositions: "1",
     link: "#",
   },
 
   {
-    title: "Product Manager/ Marketing Specialist",
+    title: " Marketing Specialist",
     image: "../images/product-manager.svg",
     details:
-      "Responsible for creating and executing marketing strategies to promote the project.",
+      "Responsible for creating and executing marketing strategies to promote the project .",
     descriptions:
       "Key responsibilities:\n\
-      The Product Manager will be responsible for driving the product roadmap and ensuring that the smartbin meets the needs of the target market.\n\
-      The Marketing Specialist will be responsible for creating and implementing a marketing strategy for the smart bin system. Identify target markets, develop messaging and branding, and execute marketing campaigns across various channels. Market research, rivalry strategy analysis, marketing collateral development, social media account management, and performance measurement are among the primary duties.\n\
+      - Responsible for managing project communications, creating content and continuously updating trends. Analyze the game market and draft a communication plan. Manage the game's website and media accounts.\n\
+      - Responsible for representing the product. \n\
       \n\
-      Qualifications:\n\
-      Bachelor's degree in BA, Marketing, or similar subject.\n\
-      Proven product management, market research, and user experience design background, ideally in a tech startup or other busy setting.\n\
-      Familiarity with product lifecycle management and agile development approaches.\n\
-      Ability to manage multiple stakeholders, prioritise tasks, and meet tight deadlines.\n\
-      Strong analytical skills and capable of data-driven decision making.\n\
-      Detail-oriented and organised.",
+      Requirements:\n\
+      - Have experience in the communications industry and master basic skills related to office information technology such as excel, word, etc.\n\
+      - Good communicated ability.\n\
+      - Understanding of IT aspects, especially games.\n\
+      - Soft skills such as problem solving, analysis and flexibility in handling emergency situations.\n\
+     ",
     openPositions: "1",
     link: "#",
   }
